@@ -1,42 +1,65 @@
-# Amplitude User Journey Analysis
+# 📊 Analyse Google Analytics – Google Merchandise Store
 
-Ce projet fictif a pour objectif de démontrer ma capacité à exploiter les données issues d'Amplitude afin d’analyser les parcours utilisateurs, identifier les points de friction et formuler des recommandations orientées produit.
+## 🎯 Problématique
 
-## 🔍 Objectifs
+Quels sont les canaux marketing les plus efficaces pour générer du trafic et des conversions sur le Google Merchandise Store ?  
+Comment optimiser les parcours utilisateurs pour augmenter le taux de conversion ?
 
-- Analyser les parcours utilisateurs au sein d'une application (funnels)
-- Étudier la rétention et la fréquence d’usage via des cohortes
-- Identifier les comportements liés à la conversion ou à l’abandon
-- Formuler des pistes d’optimisation UX basées sur les insights
+---
 
-## 🛠️ Outils utilisés
+## 🧭 Plan d’analyse
 
-- **Amplitude** (version gratuite via démo sandbox)
-- **Power BI** pour la visualisation complémentaire (exports CSV)
-- **Python (optionnel)** pour traitement de données exportées
-- **Figma** pour la mise en forme des écrans d’illustration
+### 1. Contexte & Objectifs
 
-## 📊 Méthodologie
+- **Présentation** : Ce projet repose sur l’analyse du Google Merchandise Store, une boutique e-commerce fictive utilisée comme démonstration dans Google Analytics 4.
+- **Objectif principal** : Évaluer la performance des canaux d’acquisition marketing et formuler des recommandations pour améliorer le parcours utilisateur et les conversions.
 
-1. **Définition des événements clés** : onboarding, conversion, récurrence
-2. **Création d’un funnel personnalisé** pour suivre les étapes critiques
-3. **Analyse de rétention** par cohorte d’utilisateurs
-4. **Segmentation comportementale** selon l’usage des fonctionnalités
-5. **Recommandations produit** en lien avec les patterns détectés
+### 2. Exploration des données (GA4)
 
-## 💡 Résultats simulés
+L’exploration s’appuie sur les données disponibles dans le compte démo GA4, à travers les sections suivantes :
 
-- Un taux de drop important entre l’étape 2 et 3 du funnel
-- Une rétention semaine 1 à 23 %, avec une chute rapide en semaine 2
-- Une surperformance des utilisateurs ayant activé la fonctionnalité “Favoris”
-- Proposition de tests UX (A/B) pour optimiser la phase d’onboarding
+- **Vue d’ensemble** : métriques clés (utilisateurs, sessions, conversions)
+- **Acquisition** : analyse du trafic par canal (organic, paid, referral, direct, etc.)
+- **Comportement utilisateur** : événements, pages vues, parcours
+- **Monétisation** : produits les plus vendus, chiffre d’affaires, taux de conversion
+- **Rétention** : comportement des utilisateurs dans le temps
 
-## 🔗 Démonstration
+### 3. Visualisations
 
-📁 [Accès au rapport et visualisations](LIEN À INSÉRER)  
-📎 [Aperçu dans le portfolio](https://nathalie9410.github.io)  
-🔄 [Amplitude](https://amplitude.com)
+- **Dashboards GA4** : captures d’écran et exports de rapports personnalisés
+- **Insights clés** :
+  - Funnels de conversion
+  - Analyses par cohortes
+  - Cartes de chaleur (comportement utilisateur)
 
-## 👤 À propos
+### 4. Recommandations
 
-Ce projet s’inscrit dans une démarche d’apprentissage continu et d’enrichissement de mes compétences en analytics produit. N’hésitez pas à me contacter pour en discuter !
+- **Canaux marketing à privilégier**
+- **Optimisations du tunnel de conversion**
+- **Hypothèses UX à tester** pour améliorer l’expérience utilisateur et la performance business
+
+---
+
+## 📁 Structure du projet
+
+| Chemin                                     | Description                          |
+|-------------------------------------------|--------------------------------------|
+| `README.md`                               | Présentation du projet               |
+| `images/captures_GA4.png`                 | Captures d’écran de GA4              |
+| `rapport/rapport_analyse_google_merchandise_store.pdf` | Rapport final d’analyse     |
+| `dashboard/export_exploration_ga4.csv`    | Exports de données GA4               |
+
+---
+
+## 🚀 Outils utilisés
+
+- **Google Analytics 4 (démo)**
+- **Google Looker Studio** (optionnel pour visualisation complémentaire)
+- **Markdown** pour la documentation
+- **Excel / Google Sheets** pour les analyses complémentaires
+
+---
+
+## 📌 Remarques
+
+Ce projet est fictif et repose sur un compte de démonstration fourni par Google. Les données analysées ne reflètent pas une activité réelle, mais permettent de s'exercer à la lecture des indicateurs e-commerce et à la formulation de recommandations actionnables.
