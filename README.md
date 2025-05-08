@@ -33,9 +33,9 @@ Ce projet fictif a pour objectif de démontrer ma capacité à exploiter les don
 
 ## 🔗 Démonstration
 
-📁 [Accès au rapport et visualisations](lien à insérer)  
-📎 [Aperçu dans le portfolio](https://nathalie9410.github.io)
-🌀 [Amplitude](https://amplitude.com)
+📁 [Accès au rapport et visualisations](LIEN À INSÉRER)  
+📎 [Aperçu dans le portfolio](https://nathalie9410.github.io)  
+🔄 [Amplitude](https://amplitude.com)
 
 ## 👤 À propos
 
