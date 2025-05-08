@@ -1,39 +1,42 @@
-# Analyse des parcours utilisateurs avec Amplitude (données simulées)
+# Amplitude User Journey Analysis
 
-## 📌 Contexte
+Ce projet fictif a pour objectif de démontrer ma capacité à exploiter les données issues d'Amplitude afin d’analyser les parcours utilisateurs, identifier les points de friction et formuler des recommandations orientées produit.
 
-Ce projet a été réalisé à partir du jeu de données démo fourni par [Amplitude](https://amplitude.com) dans le cadre d’un exercice personnel.  
-L’objectif est d’explorer des parcours utilisateurs dans une application mobile et d’identifier les étapes clés de conversion, de rétention et de décrochage.
+## 🔍 Objectifs
 
-## 🎯 Objectifs
+- Analyser les parcours utilisateurs au sein d'une application (funnels)
+- Étudier la rétention et la fréquence d’usage via des cohortes
+- Identifier les comportements liés à la conversion ou à l’abandon
+- Formuler des pistes d’optimisation UX basées sur les insights
 
-- Comprendre les comportements post-onboarding
-- Identifier les freins à l’activation produit
-- Étudier la rétention sur 7 et 30 jours
-- Formuler des recommandations pour améliorer l’expérience utilisateur
+## 🛠️ Outils utilisés
 
-## 🛠 Outils & Méthodologie
+- **Amplitude** (version gratuite via démo sandbox)
+- **Power BI** pour la visualisation complémentaire (exports CSV)
+- **Python (optionnel)** pour traitement de données exportées
+- **Figma** pour la mise en forme des écrans d’illustration
 
-- **Amplitude (version gratuite)**  
-- Funnels de conversion personnalisés
-- Flows utilisateurs (chemins réels suivis)
-- Analyse par cohortes
-- Segmentation comportementale
+## 📊 Méthodologie
 
-## 📈 Résultats clés
+1. **Définition des événements clés** : onboarding, conversion, récurrence
+2. **Création d’un funnel personnalisé** pour suivre les étapes critiques
+3. **Analyse de rétention** par cohorte d’utilisateurs
+4. **Segmentation comportementale** selon l’usage des fonctionnalités
+5. **Recommandations produit** en lien avec les patterns détectés
 
-- Abandon de 42 % après la première visite
-- Rétention supérieure chez les utilisateurs ayant complété le tutoriel dès le jour 1
-- +18 % de rétention quand une action clé est effectuée dans les 3 premières minutes
-- Recommandations : simplification de l’onboarding, ajout de triggers de relance
+## 💡 Résultats simulés
 
-## 🧠 Compétences mobilisées
+- Un taux de drop important entre l’étape 2 et 3 du funnel
+- Une rétention semaine 1 à 23 %, avec une chute rapide en semaine 2
+- Une surperformance des utilisateurs ayant activé la fonctionnalité “Favoris”
+- Proposition de tests UX (A/B) pour optimiser la phase d’onboarding
 
-- Analyse produit (retention, activation, funnel)
-- Construction d’insights actionnables
-- Vulgarisation de résultats pour les équipes métiers
+## 🔗 Démonstration
 
-## 🔗 Liens utiles
+📁 [Accès au rapport et visualisations](lien à insérer)  
+📎 [Aperçu dans le portfolio](https://nathalie9410.github.io)
+🌀 [Amplitude](https://amplitude.com)
 
-- [Amplitude](https://amplitude.com)
-- [Portfolio de Nathalie Claude](https://nathalie9410.github.io)
+## 👤 À propos
+
+Ce projet s’inscrit dans une démarche d’apprentissage continu et d’enrichissement de mes compétences en analytics produit. N’hésitez pas à me contacter pour en discuter !
